@@ -1,0 +1,1 @@
+# yscquake.github.io
