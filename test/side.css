@@ -1,0 +1,140 @@
+body{
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 559px) {
+    .sidebar{
+        position: absolute;
+        top: 68px;
+        padding: 10px 5px 100vh 10px;
+        box-shadow: -2px 0 3px 2px gray;
+        width: 35%;
+        height: 100vh;
+        z-index:20;
+        background-color: #eaeaea;
+        font-size: 12px;
+    }
+    
+    .sidebar.closed{
+        left: 100%;
+        box-shadow: none;
+        z-index:20;
+    }
+    
+    .sidebar.opened{
+        right: 0%;
+        z-index:20;
+    }
+    
+    .close, .open{
+        position: absolute;
+        top: 0px;
+        right: 100%;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        background-color: white;
+        border: none;
+        box-shadow: -2px 0 2px 2px gray;
+        outline: none;
+        z-index:20;
+    }
+    
+    .button_text{
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        z-index:20;
+    }
+}
+
+
+@media screen and (min-width:559px) and ( max-width:900px) {
+    .sidebar{
+        position: absolute;
+        margin: 16px 0 0 0;
+        padding: 10px 5px 100vh 10px;
+        box-shadow: -2px 0 3px 2px gray;
+        width: 35%;
+        height: 100vh;
+        z-index:20;
+        background-color: #eaeaea;
+        font-size: 15px;
+    }
+    
+    .sidebar.closed{
+        left: 100%;
+        box-shadow: none;
+        z-index:20;
+    }
+    
+    .sidebar.opened{
+        right: 0%;
+        z-index:20;
+    }
+    
+    .close, .open{
+        position: absolute;
+        top: 0px;
+        right: 100%;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        background-color: white;
+        border: none;
+        box-shadow: -2px 0 2px 2px gray;
+        outline: none;
+        z-index:20;
+    }
+    
+    .button_text{
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        z-index:20;
+    }
+}
+
+
+
+@media screen and (min-width:900px) {
+    .sidebar{
+        position: absolute;
+        padding: 10px 5px 100vh 10px;
+        box-shadow: -2px 0 3px 2px gray;
+        width: 20%;
+        height: 100vh;
+        z-index:20;
+        background-color: #eaeaea;
+        font-size: 15px;
+    }
+    
+    .sidebar.closed{
+        left: 100%;
+        box-shadow: none;
+        z-index:20;
+    }
+    
+    .sidebar.opened{
+        right: 0%;
+        z-index:20;
+    }
+    
+    .close, .open{
+        position: absolute;
+        top: 0px;
+        right: 100%;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        background-color: white;
+        border: none;
+        box-shadow: -2px 0 2px 2px gray;
+        outline: none;
+        z-index:20;
+    }
+    
+    .button_text{
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        z-index:20;
+    }
+}

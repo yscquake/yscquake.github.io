@@ -1,0 +1,15 @@
+.leaflet-popup-content {
+    z-index: 30;
+}
+.popup-content-inner {
+    font-size: 14px;
+    z-index: 30;
+}
+.popup-content-head {
+    color: #003278;
+    background: #f1faff;
+    z-index: 30;
+}
+.popup-content-body {
+    z-index: 30;
+}
